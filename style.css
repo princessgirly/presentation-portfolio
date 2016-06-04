@@ -46,3 +46,30 @@ html, body {
 }
 a {color:#0099CC;}
 span {margin-left: 1em;}
+
+/* Styles pour les smartphones */
+@media (min-width: 10px) and (max-width: 768px) {
+.bloc1 {
+    font-size: 3em;
+    margin-top: 3em;
+  }
+.bloc2 {
+  margin-top: 70%;
+  width: 100%;
+  font: 1em;
+}
+.bloc3 {
+  margin-top: 80%;
+  font: 0.5em;
+}
+span {margin-left: 0;}
+}
+/* Styles pour les tablettes */
+@media (min-width: 768px) {
+
+}
+
+/* Styles pour les écrans moyens et grands */
+@media (min-width: 992px) {
+
+}
