@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#canvas-club {
+  position: absolute;
+  width: 100%;
+}
+.texte {
+  display: block;
+  width: 100%;
+  height: 80%;
+}
+.bloc1, .bloc2, .bloc3 {
+  text-align: center;
+  overflow:hidden;
+  position: absolute;
+}
+.bloc1 {
+  font: 10em URW Chancery L;
+  color: #FF0080;
+  height: 2em;
+  width: 100%;
+}
+.bloc2 {
+  font: 2em URW Chancery L;
+  color: #FF0080;
+  height: 1.5em;
+  width: 30%;
+  margin-top: 20%;
+}
+.bloc3 {
+  font: 2em URW Chancery L;
+  color: rgb(175, 179, 184);
+  height: 1.5em;
+  width: 100%;
+  margin-top: 35%;
+}
+a {color:#0099CC;}
+span {margin-left: 1em;}
