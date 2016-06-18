@@ -42,7 +42,7 @@ O.prototype = {
 				this.x - this.w / 2, this.y - this.h / 2,
 				this.x, this.y - this.h / 2);
 
-			ctx.strokeStyle = 'hsla(180, 100%, 50%, '+this.a+')';   //hsla(340, 100%, 50%, '+this.a+')';les flaques
+			ctx.strokeStyle = 'hsl(180, 100%, 50%, '+this.a+')';   //hsla(340, 100%, 50%, '+this.a+')';les flaques
 			ctx.stroke();
 			ctx.closePath();
 
