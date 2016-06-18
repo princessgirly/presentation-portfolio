@@ -16,7 +16,7 @@ O.prototype = {
 	init: function() {
 		this.x = random(0, w);
 		this.y = 0;
-		this.color = 'hsl(180, 100%, 50%)';  //'hsl(340, 100%, 50%)'
+		this.color = 'hsl(340, 100%, 50%)';  //'hsl(180, 100%, 50%)' les gouttes
 		this.w = 2;
 		this.h = 1;
 		this.vy = random(4, 5);
@@ -42,7 +42,7 @@ O.prototype = {
 				this.x - this.w / 2, this.y - this.h / 2,
 				this.x, this.y - this.h / 2);
 
-			ctx.strokeStyle = 'hsla(340, 100%, 50%, '+this.a+')';
+			ctx.strokeStyle = 'hsla(340, 100%, 50%, '+this.a+')';   //les flaques
 			ctx.stroke();
 			ctx.closePath();
 
